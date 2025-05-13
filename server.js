@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const patientRoutes = require('./src/routes/patientRoutes');
 
 const app = express();
-const port = process.env.PORT || 2391;
+const port = process.env.PORT || 7154;
 
 app.use(bodyParser.json());
 
